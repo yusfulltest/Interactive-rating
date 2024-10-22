@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/rating.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="bodyWrap d-flex flex-column justify-content-center align-items-center container"
+      >
+        <div class="ratePage p-4">
+          <div class="textWrap container mt-2">
+            <div class="star">
+              <img src="images/icon-star.svg" alt="" class="mb-2" />
+            </div>
+            <div class="mt-5"><h3 class="txt">How did we do?</h3></div>
+            <div class="par pt-1 txt1">
+              <p>
+                Please let us know how we did with your support request. All
+                feedback is appreciated to help us improve our offering!
+              </p>
+            </div>
+            <div class="d-flex justify-content-between pt-3">
+              <div class="rating">
+                <span class="num"></span>
+              </div>
+              <div class="rating" id="rating--2">
+                <span class="num"></span>
+              </div>
+              <div class="rating">
+                <span class="num"></span>
+              </div>
+              <div class="rating">
+                <span class="num"></span>
+              </div>
+              <div class="rating"><span class="num"></span></div>
+            </div>
+            <div class="mt-3 pt-3 pb-3">
+              <button class="btn rounded-5 w-100">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="confirmPage p-4 hide">
+          <div class="textWrap container mt-2">
+            <div class="d-flex justify-content-center">
+              <img src="images/illustration-thank-you.svg" alt="" class="" />
+            </div>
+
+            <div class="d-flex justify-content-center pt-4">
+              <div class="scoreWrap rounded-5">
+                <p class="rateScore txt1"></p>
+              </div>
+            </div>
+            <div class="mt-5">
+              <h3 class="txt text-center">Thank you!</h3>
+            </div>
+
+            <div>
+              <p class="text-center par txt1">
+                We appreciate you taking the time to give a rating. If you ever
+                need more support, don’t hesitate to get in touch!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >
+          Coded by <a href="#">Toyosi A</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="JAVA/script.js"></script>
+  </body>
+</html>
